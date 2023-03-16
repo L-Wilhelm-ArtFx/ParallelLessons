@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Populate launch.json",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\generate_vscode_debug_targets.py",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "l1_matrix_product.exe - (Windows) Lancer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\Debug\\l1_matrix_product.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalTerminal": true
+        },
+        {
+            "name": "l2_even_odd.exe - (Windows) Lancer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\Debug\\l2_even_odd.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalTerminal": true
+        },
+        {
+            "name": "l2_table_sum.exe - (Windows) Lancer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\Debug\\l2_table_sum.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalTerminal": true
+        }
+    ]
+}
